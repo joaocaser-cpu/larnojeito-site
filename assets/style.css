@@ -144,3 +144,20 @@ h2.secao { scroll-margin-top: 12px; }
 @media (min-width: 900px) {
   .itens { grid-template-columns: repeat(4, 1fr); }
 }
+
+.planner {
+  display: grid; grid-template-columns: 1fr; gap: 16px; align-items: center;
+  margin: 28px 0 8px; padding: 18px; border-radius: 16px;
+  background: #FAF7F2; border: 1px solid #E8DFD3;
+}
+.planner img { width: 100%; max-width: 220px; height: auto; margin: 0 auto; border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,.12); }
+.planner h2 { margin: 4px 0 2px; font-size: 22px; color: #3A3A3A; }
+.planner .linha { margin: 0 0 10px; font-size: 14px; color: var(--cinza); }
+.planner ul { margin: 0 0 10px; padding-left: 20px; font-size: 15px; }
+.planner .detalhe { margin: 0 0 12px; font-size: 14px; color: var(--cinza); }
+.planner .botao { background: #C97B63; display: inline-block; }
+.planner .botao:hover { background: #B0634C; }
+.planner .publi { margin: 6px 0 0; font-size: 12px; color: var(--cinza); }
+@media (min-width: 640px) {
+  .planner { grid-template-columns: 220px 1fr; max-width: 760px; }
+}
