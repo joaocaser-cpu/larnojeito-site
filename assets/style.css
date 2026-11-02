@@ -164,3 +164,9 @@ h2.secao { scroll-margin-top: 12px; }
 
 .galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin: 10px 0 20px; }
 .galeria img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--linha); }
+
+.planner .combo { margin-top: 14px; padding-top: 12px; border-top: 1px dashed #E8DFD3; }
+.planner .combo p { margin: 0 0 10px; font-size: 14.5px; }
+.botao.secundario { background: transparent; color: #B0634C; border: 2px solid #C97B63; }
+.botao.secundario:hover { background: #C97B63; color: #fff; }
+.produto-afiliado { margin: 26px 0; padding-top: 6px; border-top: 1px solid var(--linha); }
