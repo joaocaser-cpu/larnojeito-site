@@ -161,3 +161,6 @@ h2.secao { scroll-margin-top: 12px; }
 @media (min-width: 640px) {
   .planner { grid-template-columns: 220px 1fr; max-width: 760px; }
 }
+
+.galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin: 10px 0 20px; }
+.galeria img { width: 100%; height: auto; border-radius: 8px; border: 1px solid var(--linha); }
